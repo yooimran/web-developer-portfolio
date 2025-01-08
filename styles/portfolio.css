@@ -27,6 +27,9 @@
   .dark-3{
     color: #757575;
   }
+  .text-center{
+    text-align: center;
+  }
   .btn-primary{
     background-color: #FD6E0A;
     font-weight: bold;
@@ -37,13 +40,15 @@
     border: none;
   }
   .section-title{
-    font-size: 35px;
+    font-size: 38px;
     font-weight: bold;
     color: #181818;
   }
   .section-description{
     font-size: 18px;
     color: #757575;
+    padding: auto;
+    
   }
 /* nav styles */
 nav{
@@ -82,25 +87,34 @@ nav ul li a{
     max-width: 580px;
 }
 .banner-wellcome{
-    font-size: 45px;
+    font-size: 30px;
     font-weight: 600px;
 }
 .banner-title{
-    font-size: 85px;
+    font-size: 55px;
     font-weight: bold;
     
+}
+.banner-description{
+    text-align: justify;
+    padding-right: 50px;
 }
 /* main styles */
 main{
     max-width: 1140px;
     margin: 0 auto;
+
+}
+main section{
+    margin-top: 130px;
+    margin-bottom: 130px;
 }
 /* About styles */
 .about{
     border-radius: 10px;
     padding: 130px 150px;
     text-align: center;
-    margin-top: 130px;
+    /* margin-top: 130px; */
 }
 .about-items{
     display: flex;
@@ -108,5 +122,87 @@ main{
 }
 .item-descripition{
     font-weight: bold;
+   
+}
+/* skills seclection styles */
+
+
+.skills-container{
+    display: flex;
+    gap: 24px;
+    
+   
+}
+.skill-despction{
+    text-align: justify;
+    
+}
+.skill{
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px 0px rgba(10, 10, 10, 0.06);
+}
+/* resume */
+.resume-container{
+    display: flex;
+    /* justify-content: space-around; */
+    gap: 50px;
+}
+
+.resume-column-title{
+    font-size: 30px;
+    font-weight: bold;
+    color: #474747;
+}
+.experience-title{
+    color: #474747;
+    font-size: 24px;
+    font-weight: bold;
+
+}
+.experience-sub-title{
+    color: #757575;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.experience-description{
+    color: #757575;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+.resume-d-btn{
+    margin-top: 50px;
+}
+/* .footer-style */
+footer{
+    padding: 130px 230px;
+    display: flex;
+    gap: 117px;
+}
+.footer-column{
+    width: 50%;
+}
+footer input[type="text"], footer input[type="email"] {
+    height: 50px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    padding: 5px 10px;
+    margin-bottom: 24px;
+    border: none;
+    font-size: 16px;
+}
+textarea{
+    height: 64px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: none;
+    font-size: 16px;
     
 }
